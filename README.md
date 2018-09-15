@@ -17,8 +17,6 @@ How do I run it?
 
 It used a locally run test swarm, or node network to act as the database. documentation for deploying the local node network can be found on the swarmDB github. The test swarm was deployed on a macbook using docker. For the javascript to be able to include the neccesary requires in html, it must be compiled using a service called browserify. the cli command to do so is browserify input.js -o output.js where you reference the output javascript.
 
-Why is the code so bad?
-
 As this was a hackathon completed in 24 hours, no formal design parameters where followed and in many cases the logic and implementation follows worst pratices.
 
 This was a team effort.
